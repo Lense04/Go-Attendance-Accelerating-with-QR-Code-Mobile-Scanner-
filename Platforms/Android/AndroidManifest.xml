@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.threeidiots.umassc" android:versionCode="1" android:versionName="beta" android:installLocation="auto">
+	<application android:allowBackup="true" android:supportsRtl="true" android:label="Attendance CS" android:theme="@style/AppTheme" android:debuggable="true" android:icon="@mipmap/appumlogo">
+		<meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="barcode" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest>
